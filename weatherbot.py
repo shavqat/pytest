@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Конфигурация
-BOT_TOKEN = "6052566938:AAEEirI6rcGUzqe009bMURVMk3OU0mYwSeM"  # Замените на реальный токен
-OWM_API_KEY = "668170c0734dd0984f8590cc9445dcd4"  # Ваш API-ключ
+BOT_TOKEN = ""  # Замените на реальный токен
+OWM_API_KEY = ""  # Ваш API-ключ
 
 def get_weather(city: str) -> str:
     """Запрашивает погоду через OpenWeatherMap API"""
